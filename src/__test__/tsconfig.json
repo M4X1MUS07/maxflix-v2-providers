@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": ["esnext"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "declaration": true,
+    "outDir": "./lib",
+    "strict": true,
+    "esModuleInterop": true,
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "experimentalDecorators": true,
+    "isolatedModules": false,
+    "skipLibCheck": true,
+    "paths": {
+      "@/*": ["../*"],
+      "@entrypoint": ["../index.ts"]
+    }
+  },
+  "include": ["./"]
+}
