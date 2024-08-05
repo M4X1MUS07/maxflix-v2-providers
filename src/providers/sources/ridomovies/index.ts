@@ -74,7 +74,7 @@ const universalScraper = async (ctx: MovieScrapeContext | ShowScrapeContext) => 
 export const ridooMoviesScraper = makeSourcerer({
   id: 'ridomovies',
   name: 'RidoMovies',
-  disabled: true,
+  disabled: false,
   rank: 100,
   flags: [flags.CORS_ALLOWED],
   scrapeMovie: universalScraper,

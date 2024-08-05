@@ -1,6 +1,6 @@
 {
   "name": "maxflix-v2-providers",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "description": "Package that contains all the providers of maxflix",
   "type": "module",
   "main": "./lib/index.js",
